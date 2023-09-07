@@ -1,6 +1,6 @@
 import "@/style/main.scss";
 import type { Metadata } from "next";
-
+import HeaderComponent from "@/components/HeaderComponent";
 
 export const metadata: Metadata = {
   title: "Portfolio",
@@ -16,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <head></head>
       <body>
+        <HeaderComponent />
         {children}
       </body>
     </html>

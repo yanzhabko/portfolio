@@ -1,0 +1,26 @@
+@import "@/style/container";
+@import "@/style/mixin";
+
+.placeholder {
+	width: 100%;
+	background: rgb(225, 225, 225, 0.25);
+}
+
+.header_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+	&__logo {
+		color: black;
+		font-size: 32px;
+	}
+
+	&__navigation {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+	}
+
+}
