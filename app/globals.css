@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-inter flex flex-col min-h-screen;
+}
+
+main {
+  @apply flex-1;
+}
